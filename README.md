@@ -86,6 +86,3 @@ Waktu eksekusi             : 5xxx ms
 **Kelas:** Pendidikan Ilmu Komputer - 4A  
 
 ---
-
-## 🔗 Link Repository
-https://github.com/namaNIM/tugaspertemuan7
