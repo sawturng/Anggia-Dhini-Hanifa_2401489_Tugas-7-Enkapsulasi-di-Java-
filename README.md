@@ -1,6 +1,6 @@
-# ⏱️ Pemrograman Berorientasi Objek — Enkapsulasi di Java (StopWatch)
+# Pemrograman Berorientasi Objek Enkapsulasi di Java (StopWatch)
 
-## 📌 Deskripsi
+## Deskripsi
 Program ini merupakan implementasi konsep **Enkapsulasi dalam Java** pada mata kuliah Pemrograman Berorientasi Objek.
 
 Program digunakan untuk **mengukur waktu eksekusi pengurutan 100.000 data** menggunakan algoritma **Selection Sort** dengan pendekatan Object-Oriented Programming (OOP).
@@ -9,7 +9,7 @@ Program digunakan untuk **mengukur waktu eksekusi pengurutan 100.000 data** meng
 
 ## Konsep yang Digunakan
 - Class dan Object  
-- Enkapsulasi (`private` & `public method`)  
+- Enkapsulasi (private & public method)  
 - Atribut dan Method  
 - Konstruktor  
 - Algoritma Sorting (Selection Sort)  
@@ -19,24 +19,24 @@ Program digunakan untuk **mengukur waktu eksekusi pengurutan 100.000 data** meng
 
 ## Struktur Program
 
-### Class `StopWatch`
+### Class StopWatch
 Class ini digunakan untuk mengukur waktu.
 
 **Atribut:**
-- `startTime` (private)  
-- `endTime` (private)  
+- startTime (private)  
+- endTime (private)  
 
 **Method:**
-- `start()` → memulai waktu  
-- `stop()` → menghentikan waktu  
-- `getElapsedTime()` → menghitung selisih waktu  
-- `getStartTime()` → mengambil waktu mulai  
-- `getEndTime()` → mengambil waktu selesai  
+- start() : memulai waktu  
+- stop() : menghentikan waktu  
+- getElapsedTime() : menghitung selisih waktu  
+- getStartTime() : mengambil waktu mulai  
+- getEndTime() : mengambil waktu selesai  
 
 ---
 
-### Class `StopWatchnew`
-Class utama yang berisi method `main`.
+### Class StopWatchnew
+Class utama yang berisi method main.
 
 **Fungsi:**
 - Membuat array 100.000 data acak  
@@ -62,9 +62,9 @@ java StopWatchnew
 
 ## Cara Kerja Program
 1. Program membuat 100.000 angka acak  
-2. Stopwatch dimulai dengan method `start()`  
+2. Stopwatch dimulai dengan method start() 
 3. Data diurutkan menggunakan **selection sort**  
-4. Stopwatch dihentikan dengan method `stop()`  
+4. Stopwatch dihentikan dengan method stop() 
 5. Program menampilkan waktu eksekusi dalam milidetik  
 
 ---
